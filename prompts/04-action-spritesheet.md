@@ -7,7 +7,7 @@ The pose board is **not** a runtime spritesheet yet — it's an intermediate the
 ## Inputs (three)
 
 1. **Snapped chroma anchor for the chosen direction** (e.g. `w-snapped-1024-chroma-canonical.png`) — identity reference. Always snapped, never raw.
-2. **Pose-board alternating-pixel guide** at the exact target size (e.g. 2048×1536 for hires preset). Same checker pattern as the anchor guide (file 03), just larger.
+2. **Pose-board alternating-pixel guide** at the exact target size (e.g. 2048×1536 for hires preset). Same checker pattern as the anchor guide (file 03), just larger. The hires preset guide used in this pipeline is shipped here: [`references/grids/alternating-2048x1536-4x3-pose-board.png`](../references/grids/alternating-2048x1536-4x3-pose-board.png).
 3. The frame-by-frame prompt below.
 
 ## Two presets

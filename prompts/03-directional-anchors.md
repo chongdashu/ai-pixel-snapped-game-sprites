@@ -5,7 +5,7 @@ Generate west and north anchors from the snapped south. East is a horizontal fli
 ## Inputs (two images, not one)
 
 1. **Snapped chroma south anchor** (`s-snapped-1024-chroma.png`) — identity reference. **Always** the snapped chroma version, never the raw 1024.
-2. **Alternating-pixel guide** — a uniform 1024×1024 black/white checker. One square = one native pixel. This is what tells the model "draw at this native pixel resolution."
+2. **Alternating-pixel guide** — a uniform 1024×1024 black/white checker. One square = one native pixel. This is what tells the model "draw at this native pixel resolution." The exact file used in this pipeline is shipped here: [`references/grids/alternating-1024x1024.png`](../references/grids/alternating-1024x1024.png).
 
 The guide is uniform — no implied grid, no cell layout. That's the difference from the pose-board guide (file 04), which uses the same alternating-pixel pattern but at a larger canvas with an implied multi-frame layout.
 

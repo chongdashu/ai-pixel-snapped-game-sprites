@@ -18,6 +18,7 @@ This repo contains everything you need to follow along:
 
 - `prompts/` — the exact prompt templates, one per pipeline step (eight in total)
 - `references/` — the reference images you'll see at each pipeline stage (problems, prompt-discipline comparisons, anchors, pose boards, runtime spritesheets, diagrams)
+- `references/grids/` — the actual alternating-pixel guide canvases referenced by prompts 03 and 04 (1024×1024 anchor guide, 2048×1536 hires pose-board guide)
 - `spritesheets/` — the final, game-ready output for both characters: pirate and skeleton, six animations each (idle, walk, attack, hurt, jump, death)
 
 ---
