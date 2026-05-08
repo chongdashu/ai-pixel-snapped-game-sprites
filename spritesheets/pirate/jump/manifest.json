@@ -1,0 +1,18 @@
+{
+  "frameWidth": 256,
+  "spritesheet": "spritesheet.png",
+  "frames": 6,
+  "columns": 5,
+  "direction": "w",
+  "mode": "image",
+  "fps": 8,
+  "previewGif": "preview.gif",
+  "rows": 2,
+  "anchor": {
+    "x": 128,
+    "y": 255
+  },
+  "version": 1,
+  "frameHeight": 256,
+  "action": "jump"
+}
